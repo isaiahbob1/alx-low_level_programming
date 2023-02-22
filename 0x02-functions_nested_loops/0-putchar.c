@@ -1,22 +1,20 @@
-#include "putchar.h"
-
+#include "main.h"
 /**
- * main - print putchar
- * Return: 0 if succesful
+ * main - print_putchar
+ * is written by isaiah
+ * Return: 0
  */
 
 int main(void)
 {
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-
-_putchar('\n');
-
-return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
-
